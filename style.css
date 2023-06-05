@@ -1,0 +1,267 @@
+
+		body {
+			background: linear-gradient(to bottom, #141726, #A86727);
+			margin: 0;
+			padding: 0;
+			height: 100vh;
+      width: 100vw;
+      background-attachment: fixed;
+		}
+		
+		h1 {
+			font-size: 35px;
+			color: white;
+      font-weight: 500; 
+			text-align: center;
+			margin-top: 25%;
+		}
+.startingLeft {
+  font-size: 13px;
+  color: rgb(242, 242, 242);
+  font-weight: 400; 
+  text-align: start;
+}
+    .h1Colored {
+			display: block;
+      position: relative;
+      width: 50%;
+      align-items: start;
+      justify-content: start;
+      background-color: transparent;
+      margin: auto;
+      display: block;
+      color: wheat;
+      text-align: center;
+		}
+
+		h4 {
+			font-size: 30px;
+			color: white;
+      font-weight: 500; ;
+			margin-top: 3vh;
+      text-align: center;
+      width: fit-content;
+		}
+    .h4Centered {
+			font-size: 30px;
+			color: white;
+      font-weight: 500; ;
+			margin-top: 3vh;
+      text-align: center;
+
+		}
+    h2 {
+			font-size: 15px;
+			color: #ccc;
+      font-weight: 400; 
+			text-align: center;
+			margin-top: 3vh;
+		}
+    h3 {
+			font-size: 15px;
+			color: #ccc;
+      font-weight: 400; 
+			text-align: center;
+			margin-top: 3vh;
+		}
+    .button { 
+      margin: 0 auto;
+      display: block;
+      background-color: rgba(255, 255, 255, 0);
+      color: #ffffff;
+      border-radius: 25px;
+      border: 1px solid #ffffff;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      font-size: 15px;
+      font-weight: 400;
+      margin-top: 30px;
+      white-space: nowrap;
+      width: max-content;
+    }
+    .box {
+      height: 50px;
+    }
+    .boxWidth{
+      width: 20px;
+    }
+    .buttonWidthH { 
+      display: block;
+      position: relative;
+      width: fit-content;
+      align-items: start;
+      justify-content: start;
+      background-color: transparent;
+      margin: auto;
+      display: block;
+      color: #EED3B9;
+      text-align: start;
+    }
+
+    .buttonWithH { 
+      display: block;
+      position: relative;
+      width: min-content;
+      align-items: start;
+      justify-content: start;
+      background-color: transparent;
+      margin: auto;
+      color: #EED3B9;
+      text-align: start;
+      word-spacing: normal;
+      
+    }
+    .placeHolder{
+      display: flex;
+      align-items: center;
+      width: 45%;
+      margin: 0 auto;
+      padding: 1%;
+      border-radius: 1.0rem;
+      border-color: #EED3B9;
+      border-style: solid;
+      border-width: 1px;
+    }
+    .placeHolderColored{
+      display: flex;
+      align-items: center;
+      width: 45%;
+      margin: 0 auto;
+      padding: 1%;
+      border-radius: 1.0rem;
+      border-color: #41435000;
+      border-style: solid;
+      border-width: 1px;
+    }
+
+.row {
+  display: flex;
+  margin: 0 auto;
+  padding: 3%;
+}
+
+.col {
+  margin: 0 auto;
+}
+
+.scroll-down {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
+  color: #ffffff;
+  height: 5%;
+}
+
+.scroll-down span {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.scroll-down i {
+  font-size: 3rem;
+  animation: scroll-down 2s ease-in-out infinite;
+}
+
+@keyframes scroll-down {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.divider {
+  border-top: 1px solid rgb(164, 164, 164);
+  align-items: center;
+  padding-right: 30%;
+  margin: 0 auto;
+  padding: 0 20px;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+}
+.social-media {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  width: fit-content;
+}
+
+.social-media a {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  text-align: center;
+  line-height: 50px;
+  color: #fff;
+  background-color: #333;
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
+}
+
+.social-media a:hover {
+  background-color: #3b5998; /* Facebook blue */
+}
+
+.social-media a:hover i.fab.fa-linkedin {
+  background-color: #0077b5; /* LinkedIn blue */
+}
+
+.social-media a:hover i.fab.fa-instagram {
+  background-color: #8a3ab9; /* Instagram purple */
+}
+
+.social-media a:hover i.fab.fa-twitter {
+  background-color: #1da1f2; /* Twitter blue */
+}
+
+.arrow-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.arrow-container i {
+  font-size: 20px;
+  color: white;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.2);
+}
+.animated-div {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.animated-div.animate {
+  opacity: 1;
+  transform: translateY(0);
+}
+.animatedfadeIn{
+  opacity: 0;
+  animation: fadeIn ease-in-out 0.5s forwards 3s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+.animatedfadeIn.visible {
+  opacity: 1;
+  transform: translateY(0px);
+  animation: fadeIn ease-in-out 0.5s forwards;
+}
