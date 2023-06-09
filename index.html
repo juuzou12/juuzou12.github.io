@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <head>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
-  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="style.css">
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="animation.js"></script>
 </head>
@@ -9,7 +9,8 @@
 <head>
 	<title>George Mathu</title>
 </head>
-<body>
+<body id="top">
+ 
 	<h1>George Mathu Njaga</h1>
   <h2> UI | UX Designer ~ Android Developer ~ Web Developer ~ Mobile Developer</h2>
   <h3>Kotlin ~ Java ~ CSS & HTML ~ Dart ~ Flutter</h2>
@@ -95,8 +96,10 @@
                       <p class="buttonWidthH">My work on GitHub showcases my expertise in developing high-quality software solutions, with a focus on clean code, best practices, and collaboration. My repositories demonstrate my ability to design, develop, and deploy projects that are optimized for performance, scalability, and maintainability. Whether you're looking for open-source libraries, sample projects, or contributions to existing projects, my GitHub profile is a testament to my passion for building innovative software solutions that make a difference.</p>
                     </div>
                     <div class="arrow-container">
-                      <a href="https://github.com/juuzou12" target="_blank"></a>
-                      <i class="fas fa-arrow-right"></i>
+                      <a href="https://github.com/juuzou12" target="_blank">
+                                              <i class="fas fa-arrow-right"></i>
+                      </a>
+
                     </div>
                     
                   </div>
@@ -108,12 +111,14 @@
                     <div class="col">
                       <h4>UI | UX Showcasing</h4>
                       <div class="row">
-                        <a href="https://github.com/juuzou12" target="_blank"></a>
+                       
                         <p class="buttonWidthH">My UI/UX design work demonstrates my creativity and expertise in creating elegant, user-friendly designs that engage users and drive business success. With a keen eye for detail and a passion for solving complex design problems, I design intuitive interfaces, engaging user experiences, and visually appealing designs that meet the needs of users and businesses alike. From wireframes to interactive prototypes, my portfolio/GitHub showcases my ability to bring ideas to life and create stunning designs that make an impact.</p>
                       </div>
                     </div>
                     <div class="arrow-container">
+                      <a href="index/showcase.html" >
                       <i class="fas fa-arrow-right"></i>
+                      </a>
                     </div>
                   </div>
                  </div>
@@ -230,5 +235,11 @@
     </div>
     <div class="box">
     </div>
+    <script>
+      window.addEventListener("load", function() {
+      var divElement = document.getElementById("top");
+      divElement.scrollIntoView({ behavior: "smooth" });
+      });
+    </script>
 </body>
 </html>
