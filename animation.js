@@ -19,16 +19,16 @@ $(document).ready(function() {
 
 
 
-  document.querySelector('#scroll-down').addEventListener('click', function() {
-    alert("I have been clicked!!!")
-    // This function is triggered when the user clicks the icon.
-    // It calculates the current position of the icon, adds the viewport height (100vh), and scrolls to that position.
-    // const iconPosition = icon.getBoundingClientRect().top + window.scrollY;
-    // const scrollPosition = iconPosition + window.innerHeight;
+  // document.querySelector('#scroll-down').addEventListener('click', function() {
+  //   alert("I have been clicked!!!")
+  //   // This function is triggered when the user clicks the icon.
+  //   // It calculates the current position of the icon, adds the viewport height (100vh), and scrolls to that position.
+  //   // const iconPosition = icon.getBoundingClientRect().top + window.scrollY;
+  //   // const scrollPosition = iconPosition + window.innerHeight;
     
-    // window.scrollTo({
-    //   top: scrollPosition,
-    //   behavior: 'smooth'
-    // });
-  });
+  //   // window.scrollTo({
+  //   //   top: scrollPosition,
+  //   //   behavior: 'smooth'
+  //   // });
+  // });
   
